@@ -58,12 +58,12 @@
         </property>
     </bean>
 
-<!--    For SOAP 1.2-->
-<!--        <bean id="messageFactory" class="org.springframework.ws.soap.saaj.SaajSoapMessageFactory">-->
-<!--          <property name="soapVersion">-->
-<!--            <util:constant static-field="org.springframework.ws.soap.SoapVersion.SOAP_12"/>-->
-<!--          </property>-->
-<!--        </bean>-->
+    <!--For SOAP 1.2-->
+    <!--    <bean id="messageFactory" class="org.springframework.ws.soap.saaj.SaajSoapMessageFactory">-->
+    <!--      <property name="soapVersion">-->
+    <!--        <util:constant static-field="org.springframework.ws.soap.SoapVersion.SOAP_12"/>-->
+    <!--      </property>-->
+    <!--    </bean>-->
 
     <citrus:schema-repository id="schemaRepositoryService">
         <citrus:schemas>
